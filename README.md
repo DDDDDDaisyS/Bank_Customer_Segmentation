@@ -1,4 +1,5 @@
-# LHL_mini_project_clustering
+# LHL mini project
+## Bank Customer Clustering
 
 ### Topics
 This mini project is dedicated to following topics:
