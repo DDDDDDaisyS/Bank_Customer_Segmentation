@@ -1,5 +1,5 @@
 # LHL mini project
-## Bank Customer Clustering
+## Bank Customer Segmentation
 
 ### Topics
 This mini project is dedicated to following topics:
@@ -7,7 +7,7 @@ This mini project is dedicated to following topics:
 - Data Visualization
 - Data Preparation and Feature Engineering
 - Dimensionality Reduction
-- Unsupervised Learning
+- Unsupervised Learning (clustering)
 
 #### Data
 We will be using old data about different financial transactions. You can download the data from [here](https://drive.google.com/file/d/1zAjnf936aHkwVCq_BmA47p4lpRjyRzMf/view?usp=sharing). The data contains following tables:
@@ -24,7 +24,6 @@ We will be using old data about different financial transactions. You can downlo
 
 #### Output
 
-In this miniproject, we will:
 
 1.  create two separate customer segmentations (using clustering) to split them into 3-5 clusters: 
     - based on their banking behavior. We can take following things into consideration as banking behavior:
@@ -44,5 +43,5 @@ In this miniproject, we will:
         - are they making lot of small transactions or few huge ones?
 2. visualize the created clusters using [radar charts](https://plotly.com/python/radar-chart/) and compare them agains each other
 3. visualize segmentations using scatter plot. We will have to use PCA to be able to plot our observations in 2D.
-4. (stretch) visualize in 2D how our clusters are evolving in each iteration of KMeans (for at least 20 iterations).
+4. visualize in 2D how our clusters are evolving in each iteration of KMeans (for at least 20 iterations).
     - we will need to create own implementation of kmeans so we can see what is happening with the clusters during the iterations.
