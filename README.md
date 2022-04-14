@@ -9,7 +9,7 @@ This mini project is dedicated to following topics:
 - Dimensionality Reduction
 - Unsupervised Learning (clustering)
 
-#### Data
+### Data
 We will be using old data about different financial transactions. You can download the data from [here](https://drive.google.com/file/d/1zAjnf936aHkwVCq_BmA47p4lpRjyRzMf/view?usp=sharing). The data contains following tables:
 
 - twm_customer - information about customers
@@ -23,7 +23,7 @@ We will be using old data about different financial transactions. You can downlo
 - twm_credit_tran - information about credit checking (subset of twm_transactions)
 
     
-#### Task
+### Task
 
 1. clustering based on their banking behavior. We can take following things into consideration as banking behavior: \
         - do they have savings account? How much do they save?
