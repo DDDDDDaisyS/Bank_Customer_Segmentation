@@ -22,18 +22,6 @@ We will be using old data about different financial transactions. You can downlo
 - twm_checking_tran - information about savings transactions (subset of twm_transactions)
 - twm_credit_tran - information about credit checking (subset of twm_transactions)
 
-#### Output
-
-
-1.  create two separate customer segmentations (using clustering) to split them into 3-5 clusters: 
-    - based on their banking behavior. We can take following things into consideration as banking behavior:
-        - do they have savings account? How much do they save?
-        - do they have credit account? How much do they live in debt?
-        - are they making lot of small transactions or few huge ones?
-2. visualize the created clusters using [radar charts](https://plotly.com/python/radar-chart/) and compare them agains each other
-3. visualize segmentations using scatter plot. We will have to use PCA to be able to plot our observations in 2D.
-4. (stretch) visualize in 2D how our clusters are evolving in each iteration of KMeans (for at least 20 iterations).
-    - we will need to create own implementation of kmeans so we can see what is happening with the clusters during the iterations.
     
 #### Task
 
